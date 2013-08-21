@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Tables">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="172.20.74.3\GHIAPP:ubueno">
+          <Created>2013-08-20T17:49:03.7154818-05:00</Created>
+          <Type>SQL</Type>
+          <Server>172.20.74.3\GHIAPP</Server>
+          <UserName>ubueno</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>ModulosSAO</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="192.168.103.8:ubueno">
+          <Created>2012-10-31T10:38:09.1758256-06:00</Created>
+          <Type>SQL</Type>
+          <Server>192.168.103.8</Server>
+          <UserName>ubueno</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>ReportesSAO</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="Justificaciones.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.20.74.3\GHIAPP:False:ubueno</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.20.74.3\GHIAPP</AssociatedConnSrvName>
+          <AssociatedConnUserName>ubueno</AssociatedConnUserName>
+          <FullPath>Justificaciones.sql</FullPath>
+        </FileNode>
+        <FileNode Name="MaquinasIngresos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.20.74.3\GHIAPP:False:ubueno</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.20.74.3\GHIAPP</AssociatedConnSrvName>
+          <AssociatedConnUserName>ubueno</AssociatedConnUserName>
+          <FullPath>MaquinasIngresos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="[ReporteHorasObservacionesMantenimiento].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.103.8:False:ubueno</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.103.8</AssociatedConnSrvName>
+          <AssociatedConnUserName>ubueno</AssociatedConnUserName>
+          <FullPath>[ReporteHorasObservacionesMantenimiento].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[EquivalenciaHorasOperacion].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.20.74.3\GHIAPP:False:ubueno</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.20.74.3\GHIAPP</AssociatedConnSrvName>
+          <AssociatedConnUserName>ubueno</AssociatedConnUserName>
+          <FullPath>[EquivalenciaHorasOperacion].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[HorasMensuales].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.20.74.3\GHIAPP:False:ubueno</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.20.74.3\GHIAPP</AssociatedConnSrvName>
+          <AssociatedConnUserName>ubueno</AssociatedConnUserName>
+          <FullPath>[HorasMensuales].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[LogLanzamientos].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.20.74.3\GHIAPP:False:ubueno</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.20.74.3\GHIAPP</AssociatedConnSrvName>
+          <AssociatedConnUserName>ubueno</AssociatedConnUserName>
+          <FullPath>[LogLanzamientos].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[MaquinasCategoria].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.20.74.3\GHIAPP:False:ubueno</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.20.74.3\GHIAPP</AssociatedConnSrvName>
+          <AssociatedConnUserName>ubueno</AssociatedConnUserName>
+          <FullPath>[MaquinasCategoria].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[MaquinasPropiedad].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.20.74.3\GHIAPP:False:ubueno</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.20.74.3\GHIAPP</AssociatedConnSrvName>
+          <AssociatedConnUserName>ubueno</AssociatedConnUserName>
+          <FullPath>[MaquinasPropiedad].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[Maquinas].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.20.74.3\GHIAPP:False:ubueno</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.20.74.3\GHIAPP</AssociatedConnSrvName>
+          <AssociatedConnUserName>ubueno</AssociatedConnUserName>
+          <FullPath>[Maquinas].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[ParametrosAplicacion].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.20.74.3\GHIAPP:False:ubueno</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.20.74.3\GHIAPP</AssociatedConnSrvName>
+          <AssociatedConnUserName>ubueno</AssociatedConnUserName>
+          <FullPath>[ParametrosAplicacion].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[ReporteHorasDetalle].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.20.74.3\GHIAPP:False:ubueno</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.20.74.3\GHIAPP</AssociatedConnSrvName>
+          <AssociatedConnUserName>ubueno</AssociatedConnUserName>
+          <FullPath>[ReporteHorasDetalle].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[ReporteHorasTurnos].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.20.74.3\GHIAPP:False:ubueno</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.20.74.3\GHIAPP</AssociatedConnSrvName>
+          <AssociatedConnUserName>ubueno</AssociatedConnUserName>
+          <FullPath>[ReporteHorasTurnos].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[ReporteHoras].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.20.74.3\GHIAPP:False:ubueno</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.20.74.3\GHIAPP</AssociatedConnSrvName>
+          <AssociatedConnUserName>ubueno</AssociatedConnUserName>
+          <FullPath>[ReporteHoras].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[TiposHora].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.20.74.3\GHIAPP:False:ubueno</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.20.74.3\GHIAPP</AssociatedConnSrvName>
+          <AssociatedConnUserName>ubueno</AssociatedConnUserName>
+          <FullPath>[TiposHora].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[Turnos].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.20.74.3\GHIAPP:False:ubueno</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.20.74.3\GHIAPP</AssociatedConnSrvName>
+          <AssociatedConnUserName>ubueno</AssociatedConnUserName>
+          <FullPath>[Turnos].sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items>
+        <FileNode Name="Modulo de Maquinaria RSAO.xlsx">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Modulo de Maquinaria RSAO.xlsx</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

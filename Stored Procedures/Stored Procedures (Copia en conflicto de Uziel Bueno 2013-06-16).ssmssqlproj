@@ -1,0 +1,286 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Stored Procedures">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="172.20.74.3:ubueno">
+          <Created>2012-03-16T13:25:56.9199215-06:00</Created>
+          <Type>SQL</Type>
+          <Server>172.20.74.3</Server>
+          <UserName>ubueno</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="192.168.103.8:ubueno">
+          <Created>2012-01-31T14:44:03.3959526-06:00</Created>
+          <Type>SQL</Type>
+          <Server>192.168.103.8</Server>
+          <UserName>ubueno</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>ModulosSAO</InitialDB>
+          <LoginTimeout>0</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="[uspRegistraEquivalenciaHoras].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.103.8:False:ubueno</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.103.8</AssociatedConnSrvName>
+          <AssociatedConnUserName>ubueno</AssociatedConnUserName>
+          <FullPath>[uspRegistraEquivalenciaHoras].sql</FullPath>
+        </FileNode>
+        <FileNode Name="De SAO a CM.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>De SAO a CM.sql</FullPath>
+        </FileNode>
+        <FileNode Name="RegistroPartesUsoSAO.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>RegistroPartesUsoSAO.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.103.8:False:ubueno</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.103.8</AssociatedConnSrvName>
+          <AssociatedConnUserName>ubueno</AssociatedConnUserName>
+          <FullPath>SQLQuery1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspRevierteReporteHoras].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.103.8:False:ubueno</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.103.8</AssociatedConnSrvName>
+          <AssociatedConnUserName>ubueno</AssociatedConnUserName>
+          <FullPath>[uspRevierteReporteHoras].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspEliminaReporteHoras].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.103.8:False:ubueno</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.103.8</AssociatedConnSrvName>
+          <AssociatedConnUserName>ubueno</AssociatedConnUserName>
+          <FullPath>[uspEliminaReporteHoras].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspActivosSCAF].sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>[uspActivosSCAF].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspAgregaHoraReporte].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.103.8:False:ubueno</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.103.8</AssociatedConnSrvName>
+          <AssociatedConnUserName>ubueno</AssociatedConnUserName>
+          <FullPath>[uspAgregaHoraReporte].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspApruebaHora].sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>[uspApruebaHora].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspApruebaReporteHoras].sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>[uspApruebaReporteHoras].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspApruebaReporteTurno].sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>[uspApruebaReporteTurno].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspAsociaSCAF].sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>[uspAsociaSCAF].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspCalculaHorasEnvio].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.103.8:False:ubueno</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.103.8</AssociatedConnSrvName>
+          <AssociatedConnUserName>ubueno</AssociatedConnUserName>
+          <FullPath>[uspCalculaHorasEnvio].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspCreaTranParteUsoSAO].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.103.8:False:ubueno</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.103.8</AssociatedConnSrvName>
+          <AssociatedConnUserName>ubueno</AssociatedConnUserName>
+          <FullPath>[uspCreaTranParteUsoSAO].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspDatosMaquinaSAO].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.103.8:False:ubueno</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.103.8</AssociatedConnSrvName>
+          <AssociatedConnUserName>ubueno</AssociatedConnUserName>
+          <FullPath>[uspDatosMaquinaSAO].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspDatosMaquinaSCAF].sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>[uspDatosMaquinaSCAF].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspDatosMaquina].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.103.8:False:ubueno</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.103.8</AssociatedConnSrvName>
+          <AssociatedConnUserName>ubueno</AssociatedConnUserName>
+          <FullPath>[uspDatosMaquina].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspEliminaHora].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.103.8:False:ubueno</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.103.8</AssociatedConnSrvName>
+          <AssociatedConnUserName>ubueno</AssociatedConnUserName>
+          <FullPath>[uspEliminaHora].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspEliminaHorasMensuales].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.103.8:False:ubueno</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.103.8</AssociatedConnSrvName>
+          <AssociatedConnUserName>ubueno</AssociatedConnUserName>
+          <FullPath>[uspEliminaHorasMensuales].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspEliminaTurnoReporte].sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>[uspEliminaTurnoReporte].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspEnviaHoraSAO] acumula efectivas.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>[uspEnviaHoraSAO] acumula efectivas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspEnviaHoraSAO].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.103.8:False:ubueno</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.103.8</AssociatedConnSrvName>
+          <AssociatedConnUserName>ubueno</AssociatedConnUserName>
+          <FullPath>[uspEnviaHoraSAO].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspEnviaReporteHorasSAO].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.103.8:False:ubueno</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.103.8</AssociatedConnSrvName>
+          <AssociatedConnUserName>ubueno</AssociatedConnUserName>
+          <FullPath>[uspEnviaReporteHorasSAO].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspGuardaInformacionMaquina].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.103.8:False:ubueno</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.103.8</AssociatedConnSrvName>
+          <AssociatedConnUserName>ubueno</AssociatedConnUserName>
+          <FullPath>[uspGuardaInformacionMaquina].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspHorasMensuales].sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>[uspHorasMensuales].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspListaFechasReporteHoras].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.103.8:False:ubueno</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.103.8</AssociatedConnSrvName>
+          <AssociatedConnUserName>ubueno</AssociatedConnUserName>
+          <FullPath>[uspListaFechasReporteHoras].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspListaMaquinas].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.103.8:False:ubueno</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.103.8</AssociatedConnSrvName>
+          <AssociatedConnUserName>ubueno</AssociatedConnUserName>
+          <FullPath>[uspListaMaquinas].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspListaTurnos].sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>[uspListaTurnos].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspMaquinaActivaEnAlmacen].sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>[uspMaquinaActivaEnAlmacen].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspModificaHora].sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>[uspModificaHora].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspModificaHorometrosTurno].sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>[uspModificaHorometrosTurno].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspObtieneIdUsuario].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.103.8:False:ubueno</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.103.8</AssociatedConnSrvName>
+          <AssociatedConnUserName>ubueno</AssociatedConnUserName>
+          <FullPath>[uspObtieneIdUsuario].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspPresupuestoSAO].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.103.8:False:ubueno</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.103.8</AssociatedConnSrvName>
+          <AssociatedConnUserName>ubueno</AssociatedConnUserName>
+          <FullPath>[uspPresupuestoSAO].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspRegistraHorasMensuales].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.103.8:False:ubueno</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.103.8</AssociatedConnSrvName>
+          <AssociatedConnUserName>ubueno</AssociatedConnUserName>
+          <FullPath>[uspRegistraHorasMensuales].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspRegistraMaquina].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.103.8:False:ubueno</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.103.8</AssociatedConnSrvName>
+          <AssociatedConnUserName>ubueno</AssociatedConnUserName>
+          <FullPath>[uspRegistraMaquina].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspRegistraReporteHoras].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.103.8:False:ubueno</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.103.8</AssociatedConnSrvName>
+          <AssociatedConnUserName>ubueno</AssociatedConnUserName>
+          <FullPath>[uspRegistraReporteHoras].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspRegistraReporteTurno].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.103.8:False:ubueno</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.103.8</AssociatedConnSrvName>
+          <AssociatedConnUserName>ubueno</AssociatedConnUserName>
+          <FullPath>[uspRegistraReporteTurno].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspReporteHoras].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.103.8:False:ubueno</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.103.8</AssociatedConnSrvName>
+          <AssociatedConnUserName>ubueno</AssociatedConnUserName>
+          <FullPath>[uspReporteHoras].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspRevierteAprobacionHora].sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>[uspRevierteAprobacionHora].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspRevierteEnvioHoras].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.103.8:False:ubueno</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.103.8</AssociatedConnSrvName>
+          <AssociatedConnUserName>ubueno</AssociatedConnUserName>
+          <FullPath>[uspRevierteEnvioHoras].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspVerificaParteUsoSAO].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.103.8:False:ubueno</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.103.8</AssociatedConnSrvName>
+          <AssociatedConnUserName>ubueno</AssociatedConnUserName>
+          <FullPath>[uspVerificaParteUsoSAO].sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

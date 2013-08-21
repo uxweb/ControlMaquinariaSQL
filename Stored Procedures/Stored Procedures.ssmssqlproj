@@ -1,0 +1,238 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Stored Procedures">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="172.20.74.3\GHIAPP:ubueno">
+          <Created>2013-08-20T18:22:18.2235611-05:00</Created>
+          <Type>SQL</Type>
+          <Server>172.20.74.3\GHIAPP</Server>
+          <UserName>ubueno</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>ModulosSAO</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="[uspActivosSCAF].sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>[uspActivosSCAF].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspAgregaHoraReporte].sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>[uspAgregaHoraReporte].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspApruebaHora].sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>[uspApruebaHora].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspApruebaReporteHoras].sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>[uspApruebaReporteHoras].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspAsociaSCAF].sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>[uspAsociaSCAF].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspCalculaHorasEnvio].sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>[uspCalculaHorasEnvio].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspCreaTranParteUsoSAO].sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>[uspCreaTranParteUsoSAO].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspDatosMaquina].sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>[uspDatosMaquina].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspDatosMaquinaSAO].sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>[uspDatosMaquinaSAO].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspEliminaHora].sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>[uspEliminaHora].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspEliminaHorasMensuales].sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>[uspEliminaHorasMensuales].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspEliminaReporteHoras].sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>[uspEliminaReporteHoras].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspEliminaTurnoReporte].sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>[uspEliminaTurnoReporte].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspEnviaHoraSAO].sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>[uspEnviaHoraSAO].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspEnviaReporteHorasSAO].sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>[uspEnviaReporteHorasSAO].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspGuardaInformacionMaquina].sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>[uspGuardaInformacionMaquina].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspHorasMensuales].sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>[uspHorasMensuales].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspListaFechasReporteHoras].sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>[uspListaFechasReporteHoras].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspListaMaquinas].sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>[uspListaMaquinas].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspListaTurnos].sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>[uspListaTurnos].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspMaquinaActivaEnAlmacen].sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>[uspMaquinaActivaEnAlmacen].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspModificaHora].sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>[uspModificaHora].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspModificaHorometrosTurno].sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>[uspModificaHorometrosTurno].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspObtieneIDUsuario].sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>[uspObtieneIDUsuario].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspPresupuestoSAO].sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>[uspPresupuestoSAO].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspRegistraEquivalenciaHoras].sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>[uspRegistraEquivalenciaHoras].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspRegistraHorasMensuales].sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>[uspRegistraHorasMensuales].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspRegistraMaquina].sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>[uspRegistraMaquina].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspRegistraReporteHoras].sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>[uspRegistraReporteHoras].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspRegistraReporteTurno].sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>[uspRegistraReporteTurno].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspReporteHoras].sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>[uspReporteHoras].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspRevierteAprobacionHora].sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>[uspRevierteAprobacionHora].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspRevierteEnvioHoras].sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>[uspRevierteEnvioHoras].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspRevierteReporteHoras].sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>[uspRevierteReporteHoras].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[uspVerificaParteUsoSAO].sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>[uspVerificaParteUsoSAO].sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
