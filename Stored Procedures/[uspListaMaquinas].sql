@@ -9,7 +9,8 @@ GO
 
 CREATE PROCEDURE [ControlMaquinaria].[uspListaMaquinas]
 (
-	@Usuario VARCHAR(50)
+	@Usuario VARCHAR(50),
+	@IdObra INTEGER = NULL
 )
 AS
 /*
@@ -115,6 +116,8 @@ BEGIN
 				[almacenes].[id_almacen] = [ControlMaquinaria].[Maquinas].[IDAlmacenSAO]
 		WHERE
 			[almacenes].[tipo_almacen] = 2
+				AND
+			[obras].[id_obra] = ISNULL(@IdObra, [obras].[id_obra])
 		ORDER BY
 			  [vwListaProyectosUnificados].[NombreProyecto]
 			, [Almacen]
@@ -189,6 +192,8 @@ BEGIN
 				[almacenes].[id_almacen] = [ControlMaquinaria].[Maquinas].[IDAlmacenSAO]
 		WHERE
 			[almacenes].[tipo_almacen] = 2
+				AND
+			[obras].[id_obra] = ISNULL(@IdObra, [obras].[id_obra])
 		ORDER BY
 			  [vwListaProyectosUnificados].[NombreProyecto]
 			, [Almacen]
