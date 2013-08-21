@@ -33,13 +33,13 @@ UNIQUE([IDEquivalenciaHoras]);
 GO
 
 -- FOREIGN KEY CONSTRAINT WITH [Proyectos].[Proyectos] TABLE
---ALTER TABLE [ControlMaquinaria].[EquivalenciaHorasOperacion]
---ADD CONSTRAINT [FK_EquivalenciaHorasOperacion_Proyectos]
---FOREIGN KEY ([IDProyecto])
---REFERENCES [Proyectos].[Proyectos] ([IDProyecto])
---	ON UPDATE NO ACTION
---	ON DELETE NO ACTION;
---GO
+ALTER TABLE [ControlMaquinaria].[EquivalenciaHorasOperacion]
+ADD CONSTRAINT [FK_EquivalenciaHorasOperacion_Proyectos]
+FOREIGN KEY ([IDProyecto])
+REFERENCES [Proyectos].[Proyectos] ([IDProyecto])
+	ON UPDATE NO ACTION
+	ON DELETE NO ACTION;
+GO
 
 -- DEFAULT CONSTRAINT FOR [HorasDomingo] FIELD
 ALTER TABLE [ControlMaquinaria].[EquivalenciaHorasOperacion]

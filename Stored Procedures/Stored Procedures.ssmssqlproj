@@ -128,9 +128,9 @@
           <FullPath>[uspListaFechasReporteHoras].sql</FullPath>
         </FileNode>
         <FileNode Name="[uspListaMaquinas].sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
-          <AssociatedConnUserName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.20.74.3\GHIAPP:False:ubueno</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.20.74.3\GHIAPP</AssociatedConnSrvName>
+          <AssociatedConnUserName>ubueno</AssociatedConnUserName>
           <FullPath>[uspListaMaquinas].sql</FullPath>
         </FileNode>
         <FileNode Name="[uspListaTurnos].sql">

@@ -47,13 +47,13 @@ REFERENCES [ControlMaquinaria].[ReporteHorasTurnos]([IDReporteTurno])
 GO
 
 -- FOREIGN KEY CONSTRAINT WITH [Seguridad].[Usuarios] TABLE
---ALTER TABLE [ControlMaquinaria].[ReporteHorasDetalle]
---ADD CONSTRAINT [FK_ReporteHorasDetalle_SeguridadUsuarios]
---FOREIGN KEY ([IDUsuarioRegistro])
---REFERENCES [Seguridad].[Usuarios] ([IDUsuario])
---	ON UPDATE NO ACTION
---	ON DELETE NO ACTION;
---GO
+ALTER TABLE [ControlMaquinaria].[ReporteHorasDetalle]
+ADD CONSTRAINT [FK_ReporteHorasDetalle_SeguridadUsuarios]
+FOREIGN KEY ([IDUsuarioRegistro])
+REFERENCES [Seguridad].[Usuarios] ([IDUsuario])
+	ON UPDATE NO ACTION
+	ON DELETE NO ACTION;
+GO
 
 -- FOREIGN KEY CONSTRAINT WITH [TiposHora] TABLE
 ALTER TABLE [ControlMaquinaria].[ReporteHorasDetalle]
