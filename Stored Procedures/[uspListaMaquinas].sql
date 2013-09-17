@@ -115,7 +115,7 @@ BEGIN
 			ON
 				[almacenes].[id_almacen] = [ControlMaquinaria].[Maquinas].[IDAlmacenSAO]
 		WHERE
-			[almacenes].[tipo_almacen] = 2
+			[almacenes].[tipo_almacen] IN(1, 2)
 				AND
 			[obras].[id_obra] = ISNULL(@IdObra, [obras].[id_obra])
 		ORDER BY
@@ -191,7 +191,7 @@ BEGIN
 			ON
 				[almacenes].[id_almacen] = [ControlMaquinaria].[Maquinas].[IDAlmacenSAO]
 		WHERE
-			[almacenes].[tipo_almacen] = 2
+			[almacenes].[tipo_almacen] IN(1, 2)
 				AND
 			[obras].[id_obra] = ISNULL(@IdObra, [obras].[id_obra])
 		ORDER BY
