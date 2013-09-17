@@ -59,10 +59,10 @@ BEGIN
 	BEGIN
 		
 		SELECT DISTINCT
-			  [vwListaProyectosUnificados].[idProyecto]
+			  [vwListaProyectosUnificados].[IDProyecto]
 			, [vwListaProyectosUnificados].[NombreProyecto] AS [Proyecto]
-			, [Maquinas].[idMaquina]
-			, [almacenes].[id_almacen] AS [idAlmacen]
+			, [Maquinas].[IDMaquina]
+			, [almacenes].[id_almacen] AS [IDAlmacen]
 			, [almacenes].[descripcion] AS [Almacen]
 			--, [CuentaMaquinasAlmacen].[CantidadMaquinas]
 			, [inventarios].[fecha_hasta] AS [FechaBaja]
@@ -128,7 +128,7 @@ BEGIN
 			  [vwListaProyectosUnificados].[IDProyecto]
 			, [vwListaProyectosUnificados].[NombreProyecto] AS [Proyecto]
 			, [Maquinas].[IDMaquina]
-			, [almacenes].[id_almacen] AS [idAlmacen]
+			, [almacenes].[id_almacen] AS [IDAlmacen]
 			, [almacenes].[descripcion] AS [Almacen]
 			--, [CuentaMaquinasAlmacen].[CantidadMaquinas]
 			, [inventarios].[fecha_hasta] AS [FechaBaja]

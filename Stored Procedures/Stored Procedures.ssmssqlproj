@@ -15,6 +15,18 @@
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
           <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
         </ConnectionNode>
+        <ConnectionNode Name="192.168.103.8:ubueno">
+          <Created>2013-09-10T13:06:32.7187887-05:00</Created>
+          <Type>SQL</Type>
+          <Server>192.168.103.8</Server>
+          <UserName>ubueno</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>ModulosSAO</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
@@ -134,9 +146,9 @@
           <FullPath>[uspListaMaquinas].sql</FullPath>
         </FileNode>
         <FileNode Name="[uspListaTurnos].sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
-          <AssociatedConnUserName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.20.74.3\GHIAPP:False:ubueno</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.20.74.3\GHIAPP</AssociatedConnSrvName>
+          <AssociatedConnUserName>ubueno</AssociatedConnUserName>
           <FullPath>[uspListaTurnos].sql</FullPath>
         </FileNode>
         <FileNode Name="[uspMaquinaActivaEnAlmacen].sql">
@@ -164,9 +176,9 @@
           <FullPath>[uspObtieneIDUsuario].sql</FullPath>
         </FileNode>
         <FileNode Name="[uspPresupuestoSAO].sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
-          <AssociatedConnUserName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.20.74.3\GHIAPP:False:ubueno</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.20.74.3\GHIAPP</AssociatedConnSrvName>
+          <AssociatedConnUserName>ubueno</AssociatedConnUserName>
           <FullPath>[uspPresupuestoSAO].sql</FullPath>
         </FileNode>
         <FileNode Name="[uspRegistraEquivalenciaHoras].sql">
@@ -200,9 +212,9 @@
           <FullPath>[uspRegistraReporteTurno].sql</FullPath>
         </FileNode>
         <FileNode Name="[uspReporteHoras].sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
-          <AssociatedConnUserName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.20.74.3\GHIAPP:False:ubueno</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.20.74.3\GHIAPP</AssociatedConnSrvName>
+          <AssociatedConnUserName>ubueno</AssociatedConnUserName>
           <FullPath>[uspReporteHoras].sql</FullPath>
         </FileNode>
         <FileNode Name="[uspRevierteAprobacionHora].sql">
